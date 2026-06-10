@@ -3,6 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <title>我的学习之旅</title>
+    <style>
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        max-width: 800px;
+        margin: 0 auto;  /* 内容居中 */
+        padding: 2rem;
+        line-height: 1.6;
+        color: #1f2937;
+        background-color: #f9fafb;
+    }
+    h1 {
+        color: #0ea5e9;  /* 亮蓝色，和 Docker 有点像 */
+        border-left: 4px solid #0ea5e9;
+        padding-left: 1rem;
+    }
+    h2 {
+        margin-top: 2rem;
+        color: #374151;
+        border-bottom: 2px solid #e5e7eb;
+        padding-bottom: 0.25rem;
+    }
+    a {
+        color: #0ea5e9;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    .repo-link {
+        background-color: #e5e7eb;
+        padding: 0.75rem;
+        border-radius: 8px;
+        margin: 1rem 0;
+    }
+</style>
 </head>
 <body>
     <h1>👋 Hello, World!</h1>
@@ -11,5 +46,29 @@
     <p>📝 我会在这里分享我的 Go 语言学习笔记、项目实践和技术思考。</p>
     <p>🔧 技术栈：Go | Gin | MySQL | Redis | Docker</p>
     <p><a href="https://github.com/Signal-zxh">我的 GitHub 主页</a></p>
+    <h2>Go学习之旅</h2>
+    <h3>Go语言基础</h3>
+    <p><a href= "https://go.dev/tour"> A tour of Go</a></p>
+    <p><a href= "https://go.dev/doc/install">Installing Go¶</a></p>
+    <p><a href= "https://go.dev/doc/tutorial/getting-started.html"> Tutorial: Getting started¶</a></p>
+    <p><a href= "https://go.dev/doc/code.html"> How to write Go code¶</a></p>
+    <p><a href= "https://go.dev/doc/tutorial/create-module.html"> Tutorial: Create a module</a></p>
+    <p><a href= "https://go.dev/doc/articles/wiki/"> Writing Web Applications</a></p>
+    <h3>Gin框架</h3>
+    <p><a href= "https://gin-gonic.com/en/docs/quickstart/"> Quickstart</a></p>
+    <p><a href= "https://go.dev/doc/tutorial/web-service-gin.html"> Tutorial: Developing a RESTful API with Go and Gin¶</a></p>
+    <h3>数据库</h3>
+    <p><a href= "https://go.dev/doc/tutorial/database-access"> Accessing a relational database</a></p>
+    <h3>中间件Redis</h3>
+    <p><a href= "https://university.redis.io/learningpath/14q8m6gilfwltm"> Get started with Redis</a></p>
+    <h3>Docker</h3>
+    <p><a href= "https://docs.docker.com/get-started"> Get started </a></p>
+
+    <h2>我的项目</h2>
+    <div class="repo-link">
+    <strong>📦 TODO 应用 (gin-todo)</strong><br>
+    基于 Go + Gin + MySQL + Redis 的待办事项后端服务。<br>
+    <a href="https://github.com/Signal-zxh/gin-todo">GitHub 仓库地址</a>
+</div>  
 </body>
 </html>
